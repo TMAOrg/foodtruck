@@ -103,7 +103,7 @@ def _build_kd_tree(api_path):
 def get_nearby_foodtrucks(lat, lng, radius):
     """Query all foodtrucks within `radius` miles from (`lat`, `lat`).
 
-    This api takes a location(identified by its x and y coordinate), and a
+    This api takes a location(identified by its latitude and langitude), and a
     `radius`(the distance from the location), and finds all the foodtrucks
     with a distance less than or equal to `radius`, then returns all necessary
     information of the foodtrucks.
